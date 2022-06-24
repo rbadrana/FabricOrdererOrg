@@ -29,7 +29,7 @@ PeerOrgs:
         - "localhost"
 
     Users:
-      Count: 1    #and one user other than admin user(admin is default user)
+      Count: 1    #it means  one user other than admin user(admin is default user)
 
   - Name: Org2
     Domain: org2.example.com
@@ -38,7 +38,7 @@ PeerOrgs:
     Template:
       Count: 2
       SANS:
-        - "localhost"
+        - "localhost"  #here ip address of org can be provided
 
     Users:
       Count: 1
